@@ -13,6 +13,7 @@ from pipeline.rag import QdrantRetriever, generation_with_knowledge_retrieval
 
 
 async def main():
+    #
     config = dotenv_values(".env")
 
     # 初始化 LLM 嵌入模型 和 Reranker
